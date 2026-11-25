@@ -66,7 +66,7 @@
 
 1gateway lets AI agents buy the data and APIs they need, one call at a time: no signup, no API key, paid per request with USDC on Base or Solana via x402. Coverage: company and compliance checks (sanctions, KYB, SEC filings, Korean companies), Korean real estate, trade and macro data, onchain and market data, and agent utilities such as document-to-Markdown. Every response names its source. Failed calls are never charged.
 
-**Areas:** AI · Payments · Data · Blockchain · API-Gateway
+**Areas:** Artificial Intelligence · Payments · Data · Blockchain · API Gateway
 
 ## 1gateway on APIs.io
 
@@ -116,11 +116,17 @@ Everything profiled for 1gateway is published on APIs.io rather than in this rep
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [1gateway-dev-mcp.yml](https://apis.io/servers/1gateway-dev/1gateway-dev-mcp-yml/)
+
 #### Agentic access (1)
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [1Gateway Dev Agentic Access](https://apis.io/agentic-access/1gateway-dev/1gateway-dev-agentic-access/)
+- [1gateway Agentic Access](https://apis.io/agentic-access/1gateway-dev/1gateway-dev-agentic-access/)
 
 #### Governance rules (1)
 
@@ -132,14 +138,14 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [1Gateway Dev Authentication](https://apis.io/security/1gateway-dev/1gateway-dev-authentication/)
-- [1Gateway Dev Domain Security](https://apis.io/security/1gateway-dev/1gateway-dev-domain-security/)
+- [1gateway Authentication](https://apis.io/security/1gateway-dev/1gateway-dev-authentication/)
+- [1gateway Domain Security](https://apis.io/security/1gateway-dev/1gateway-dev-domain-security/)
 
 #### OAuth scopes (1)
 
 The permissions the API asks for.
 
-- [1Gateway Dev Scopes](https://apis.io/scopes/1gateway-dev/1gateway-dev-scopes/)
+- [1gateway Scopes](https://apis.io/scopes/1gateway-dev/1gateway-dev-scopes/)
 
 ## Where to find this API
 
@@ -151,23 +157,23 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 30.7** — thin · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 25.0** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 65.0 |
-| Contract quality | 44.2 |
-| Contract governance | 65.5 |
+| Discoverability | 71.7 |
+| Contract quality | 47.3 |
+| Contract governance | 18.2 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 27.9 |
 | Access clarity | 0.0 |
 
-**Agent readiness 29.8** — agent-ready
+**Agent readiness 27.9** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
 | Spec Presence | yes |
-| Agentic Access | unknown |
+| Agentic Access | derived (partial credit) |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
 | Auth Clarity | — |
@@ -177,7 +183,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Rate Limit Signal | — |
 | Event Surface Described | — |
 | Agent Skills | unknown |
-| Well Known Catalog | — |
+| Well Known Catalog | yes |
 | Consent Identity | — |
 | Agent Card | — |
 | Dry Run Mode | — |
@@ -187,8 +193,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | — |
 | Operation Distinctiveness | — |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 17.5** — Payments
+**Regulatory alignment 12.5** — Payments
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/1gateway-dev/](https://apis.io/providers/1gateway-dev/).
 
